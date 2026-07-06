@@ -1,0 +1,27 @@
+{
+  "n_rows": 36500,
+  "n_days": 730,
+  "n_stores": 5,
+  "n_items": 10,
+  "n_missing_values": 0,
+  "date_range": [
+    "2024-01-01",
+    "2025-12-30"
+  ],
+  "total_units_sold": 4468963,
+  "avg_daily_total_units": 6121.9,
+  "weekend_vs_weekday_avg": {
+    "weekday_avg": 114.0,
+    "weekend_avg": 133.8
+  },
+  "promo_lift_pct": 49.7,
+  "holiday_lift_pct": 15.6,
+  "sales_by_category": {
+    "produce": 165.1,
+    "bakery": 157.4,
+    "dairy": 123.3,
+    "beverages": 94.0,
+    "snacks": 72.4
+  },
+  "pct_promo_days": 8.01
+}

@@ -1,0 +1,22 @@
+data:
+  n_days: 730
+  n_stores: 5
+  n_items: 10
+  start_date: "2024-01-01"
+  random_seed: 42
+  raw_path: data/raw/sales.csv
+  processed_path: data/processed/features.parquet
+
+training:
+  test_days: 60
+  mlflow_tracking_uri: sqlite:///mlruns.db
+  experiment_name: retail-demand-forecasting
+
+model:
+  n_estimators: 300
+  max_depth: 4
+  learning_rate: 0.05
+  subsample: 0.8
+
+app:
+  port: 8501
